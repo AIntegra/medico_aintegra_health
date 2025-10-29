@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:8000/v1";
+//const API_URL = "http://127.0.0.1:8000/v1";
+const API_URL = "https://cushionless-cruz-supermental.ngrok-free.dev";
 
 export async function generateSummary(notes, mode = "discharge", language = "es") {
   const res = await fetch(`${API_URL}/summarize`, {
