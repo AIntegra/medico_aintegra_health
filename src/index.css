@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuente y estilo base */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  @apply bg-gradient-to-br from-sky-50 via-white to-emerald-50 text-gray-800 min-h-screen antialiased;
+  font-family: "Inter", sans-serif;
+}
